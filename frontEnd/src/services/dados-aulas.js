@@ -1,4 +1,3 @@
-// src/services/dadosAulas.js
 import axios from 'axios';
 
 export const fetchAulas = async () => {
