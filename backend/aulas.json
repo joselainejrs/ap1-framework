@@ -1,0 +1,48 @@
+[
+    {
+        "id":1,
+        "titulo":"Client-server",
+        "pergunta": "Client-server(cliente-sevidor)",
+        "capa": "client.png",
+        "descricao":"O cliente-servidor é um modelo de arquitetura onde o cliente faz requisições de serviços, e o servidor processa essas requisições e envia as respostas. O cliente i9nterage diretamente com o usuário, enquanto o servidor lida com a lógica de processamento."
+    },
+    {
+        "id":2,
+        "titulo":"MVC",
+        "pergunta":"Model-view-Controller (MVC)",
+        "capa": "mvc.jpeg",
+        "descricao":"O MVC é um modelo de arquitetura de software que divide uma aplicação em tres componentes: Model, que gerencia os dados e regras de negócio, View, que exibe os dados e interage com o usuário e Controller, que interpreta as ações do usuário e atualiza o Model e seleciona a View adequada"
+        
+    },
+    {
+        "id":3,
+        "titulo":"FrameWork",
+        "pergunta":"Quais os Beneficios em usar FrameWork",
+        "capa": "framework.jpeg",
+        "descricao":"Os Frameworks oferecem bibliotecas e estruturas prontas, o que melhora a produtividade, economiza tempo e otimizam o desempenho com as soluções pré-testadas"
+    },
+    {
+        "id":4,
+        "titulo":"Bootstrap",
+        "pergunta":"Como o Bootstrap Funciona",
+        "capa": "bootstrap.png",
+        "descricao":"O Bootstrap é um framework front-end que facilita a criação de sites responsivos. Fornece uma coleção de classes CSS, sistemas de grid, classes utilitárias e componentes pré-desenvolvidos para aplicar no HTML"
+    },
+    {
+        "id":5,
+        "titulo":"CND",
+        "pergunta":"Qual é a função do CND?",
+        "capa": "cdn.png",
+        "descricao":"Sua função é melhorar a entrega de conteúdo de um site, tornando-o mais rápido e eficiente. Ele distribui arquivos, como imagens,vídeos, arquivos CSS e Javascript em vários servidores em diferentes partes do mundo"
+    },
+    {
+        "id":6,
+        "titulo":"Flask",
+        "pergunta":"A simplicidade do Flask se deve ao fato de que?",
+        "capa": "flask.png",
+        "descricao":"O Flask é um framework minimalista e leve para desenvolvimento web em Python, fácil e flexível de usar, também possui uma excelente documentação, o que facilita o aprendizado e a implementação de novos recursos."
+    }
+    
+    
+
+]
