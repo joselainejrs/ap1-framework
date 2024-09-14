@@ -28,7 +28,7 @@ function Aula() {
             <Menu />
             <p className='user mx-5'></p> <br/>
             <h3 className='fw-light my-5 text-center'>
-                <span className='titulo'>{user ? `Olá, ${user}` : 'Bem-vindo!'}</span>  
+                <span className='titulo'>{user ? `Olá, ${user} ` : 'Bem-vindo!'} </span>  
                 entenda mais sobre cada aula
             </h3>
             <div className='container'>
