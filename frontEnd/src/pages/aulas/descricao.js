@@ -24,7 +24,7 @@ function Descricao() {
 
     return (
         <main>
-            <button type="button mx-5" onClick={() => navigate('/')} className="btn-simples my-4 mx-4 ">Voltar</button>
+            <button type="button mx-5" onClick={() => navigate('/aula')} className="btn-simples my-4 mx-4 ">Voltar</button>
             <div className='text-center'>
                 <h2 className='titulo my-5'>Tema de {aula.titulo}</h2>
                 <div className='border rounded py-5' style={{ width: '50%', margin:'0 auto '}}>
