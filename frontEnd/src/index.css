@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:  var(--blue);
+}
+
+:root{
+  --roxo: #A020F0;
+  --roxo-hover: #601192;
+  --blue: #374957;
+}
+
+.titulo{
+  font-family: "SUSE", sans-serif;
+}
+
+.nav-link.active{
+  color: var(--roxo-hover) !important;
+  font-weight: bold;
+}
+
+.user{
+  font-weight: bold;
+}
+
+.btn-simples{
+  border: none;
+  background: none;
+  color:var(--roxo);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.btn{
+  background-color: var(--roxo);
+  border: none;
+}
+
+.btn:hover{
+  background-color: var(--roxo-hover);
+}
