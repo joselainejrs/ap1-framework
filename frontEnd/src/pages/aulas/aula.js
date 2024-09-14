@@ -28,14 +28,14 @@ function Aula() {
             <Menu />
             <p className='user mx-5'></p> <br/>
             <h3 className='fw-light my-5 text-center'>
-                <span className='titulo'>{user ? `Olá, ${user} ` : 'Bem-vindo!'} </span>  
+                <span className='titulo fw-bold'>{user ? `Olá, ${user} ` : 'Bem-vindo!'} </span>  
                 entenda mais sobre cada aula
             </h3>
             <div className='container'>
                 <div className='row'>
                     {aulas.map((item, index) => (
                         <div className='col-12 col-md-6 col-lg-3 mb-4' key={index}>
-                            <div className="card text-center" style={{ width: '100%' }}>
+                            <div className="card text-center w-100">
                                 <img 
                                     src={`http://localhost:5000/img/${item.capa}` || "https://via.placeholder.com/150"} 
                                     className="card-img-top my-3" 
@@ -53,8 +53,8 @@ function Aula() {
                                     </p>
                                     <button 
                                         onClick={() => handleSaibaMais(item.id)} 
-                                        className="btn btn-primary"
-                                        style={{ width: '100%', height: '40px' }}
+                                        className="btn btn-primary w-100"
+                                        style={{height: '40px' }}
                                     >
                                         Saiba mais
                                     </button>

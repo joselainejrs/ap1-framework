@@ -70,7 +70,7 @@ function Home() {
                         />
                     </div>
                     {error && <p className="error-text">{error}</p>}
-                    <button type="submit" className="btn btn-primary" style={{ width: '100%', height: '50px' }}>Entrar</button>
+                    <button type="submit" className="btn btn-primary w-100"  style={{ height: '50px' }}>Entrar</button>
                 </fieldset>
 
 
